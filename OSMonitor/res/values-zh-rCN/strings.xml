@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Application -->
+<string name="app_name">系统监控</string>
+<string name="app_title">系统监控 2.0.5</string>
+
+<!-- StatusBar -->
+<string name="bar_title">系统监控</string>
+<string name="bar_text">背景执行中..</string>
+
+<!-- Tab -->
+<string name="process_tab">程序</string>
+<string name="network_tab">网络</string>
+<string name="connection_tab">联机</string>
+<string name="misc_tab">杂项</string>
+<string name="debug_tab">记录</string>
+
+<!-- Process Tab Start -->
+ 
+<!-- Header -->
+<string name="process_count">程序:</string>
+<string name="process_cpuusage">CPU 使用率:</string>
+
+<!-- Footer -->
+<string name="process_memorytotal">内存 全部:</string>
+<string name="process_memoryfree">未用:</string>
+
+<!-- Table Header -->
+<string name="process_pid">PID</string>
+<string name="process_name">程序名称</string>
+<string name="process_load">负载</string>
+<string name="process_mem">内存</string>
+<string name="process_thread">线程</string>
+
+<!-- Action Menu -->
+<string name="process_kill">终止程序</string>
+<string name="process_switch">切换至程序</string>
+<string name="process_watchlog">查看记录</string>
+<string name="process_nice">更改优先权</string>
+
+<!-- Expanded Menu  -->
+<string name="process_killmsg">终止  $COUNT$ 个程序..</string>
+<string name="process_multiselect">多选</string>
+<string name="process_multikill">终止</string>
+<string name="process_freeze">暂停更新</string>
+
+<!-- Process Detail -->
+<string name="process_detail_process">程序</string>
+<string name="process_detail_memory">内存</string>
+<string name="process_detail_thread">绪行绪</string>
+<string name="process_detail_load">负载</string>
+<string name="process_detail_stime">核心</string>
+<string name="process_detail_utime">一般</string>
+<string name="process_detail_nice">优先</string>
+<string name="process_detail_user">使用者</string>
+<string name="process_detail_status">状态</string>
+<string name="process_detail_time">开始时间</string>
+
+<!-- Process Status -->
+<string name="process_status_zombie">殭尸</string>
+<string name="process_status_sleep">休息中</string>
+<string name="process_status_running">执行中</string>
+<string name="process_status_waitio">等待 IO</string>
+<string name="process_status_stop">停止</string>
+<string name="process_status_unknown">未知</string>
+
+<!-- Process Tab End -->
+
+
+<!-- Network Tab Start -->
+
+<!-- Header -->
+<string name="network_interface">界面</string>
+<string name="network_ip">IPv4</string>
+<string name="network_ip6">IPv6</string>
+
+<!-- Additional -->
+<string name="network_mac">MAC</string>
+<string name="network_rx">接收</string>
+<string name="network_tx">传送</string>
+<string name="network_status">状态</string>
+
+<!-- Status -->
+<string name="network_status_up">启用</string>
+<string name="network_status_down">停用</string>
+<string name="network_status_broadcast">广播</string>
+<string name="network_status_loopback">回送</string>
+<string name="network_status_p2p">点对点</string>
+<string name="network_status_running">执行</string>
+<string name="network_status_multicast">多点广播</string>
+
+<!-- Network Tab End -->
+
+<!-- Connection Tab Start -->
+
+<!-- Header -->
+<string name="connection_protocol_text">协定</string>
+<string name="connection_localremote_text">本地 / 远程 IP</string>
+<string name="connection_status_text">状态</string>
+
+<!-- Connection Tab End -->
+
+<!-- Misc Tab Start -->
+
+<!-- Uptime -->
+<string name="uptimeday_text">天</string>
+<string name="uptime_text">运行时间</string>
+
+<!-- CPU -->
+<string name="processorfreq_text">频率范围</string>
+<string name="processorscal_text">允许范围</string>
+<string name="processorgov_text">调节政策</string>
+<string name="processortmp_text">温度</string>
+<string name="processorcur_text">目前</string>
+<string name="processorcore_text">数量</string>
+
+<!-- Battery -->
+<string name="battery_text">电池</string>
+<string name="battery_health_text">健康情况</string>
+<string name="battery_technology_text">种类</string>
+<string name="battery_capacity_text">容量</string>
+<string name="battery_voltage_text">电压</string>
+<string name="battery_temperature_text">温度</string>
+<string name="battery_acpower_text">交流电</string>
+<string name="battery_usbpower_text">USB</string>
+<string name="battery_status_text">状态</string>
+<string name="battery_online_text">启用</string>
+<string name="battery_offline_text">停用</string>
+<string name="battery_status_unknown_text">未知</string>
+<string name="battery_status_charging_text">充电中</string>
+<string name="battery_status_discharging_text">无法充电</string>
+<string name="battery_status_notcharging_text">未充电</string>
+<string name="battery_status_full_text">全满</string>
+<string name="battery_health_dead_text">损坏</string>
+<string name="battery_health_good_text">良好</string>
+<string name="battery_health_overheat_text">过热</string>
+<string name="battery_health_overvoltage_text">电压过高</string>
+<string name="battery_health_unknown_text">未知</string>
+<string name="battery_health_failure_text">未知错误</string>
+
+
+<!-- Disk -->
+<string name="disk_total_text">总共</string>
+<string name="disk_used_text">使用</string>
+<string name="disk_available_text">未用</string>
+
+<!-- Misc Tab End -->
+
+
+<!-- Message Tab Start -->
+
+<!-- Header -->
+<string name="message_count_text">笔数:</string>
+<string name="message_freeze_text">暂停更新</string>
+
+<!-- Message Tab End -->
+
+
+<!-- Preferences -->
+
+<!-- Global -->
+<string name="pref_updatetime_title">更新频率 (秒)</string>
+<string name="pref_updatetimesum_title">全部功能的更新频率</string>
+
+<!-- Status Bar  -->
+<string name="pref_showiconbar_title">状态栏图示</string>
+<string name="pref_iconbarcolor_title">图示颜色</string>
+<string name="pref_showiconbarsum_title">在状态栏显示快捷方式图标</string>
+<string name="pref_cpuusage_text">显示CPU使用率</string>
+<string name="pref_cpuusagesum_text">以 CPU 使用率图标取代快捷方式图标</string>
+<string name="pref_tempvalue_text">使用 华氏</string>
+<string name="pref_tempvaluesum_text">切换 华氏/摄氏 显示</string>
+<string name="pref_autostart_text">开机时启动</string>
+<string name="pref_autostartsum_text">随系统启动时执行</string>
+
+<!-- Extra  -->
+<string name="pref_hideappbar_text">隐藏应用程序名称</string>
+<string name="pref_hideappbarsum_text">有更多空间显示数据</string>
+<string name="pref_rooted_text">使用 ROOT 模式</string>
+
+
+<!-- Process -->
+<string name="pref_showsystem_text">隐藏系统程序</string>
+<string name="pref_showsystemsum_text">隐藏路径有/system/或用户为 root的程序</string>
+<string name="pref_sortbytitle_text">排序</string>
+<string name="pref_sortbytitlesum_text">PID, 负载, 内存, 线程, 名称</string>
+<string name="pref_sortway_text">排序方向</string>
+<string name="pref_sortwaysum_text">点选后采用降幕,不点选后采用升幕</string>
+<string name="pref_longclicktitle_text">长按</string>
+<string name="pref_shortclicktitle_text">短按</string>
+<string name="pref_clicktitlesum_text">详细数据, 动作选单, 左右分开</string>
+<string name="pref_rootedsum_text">支持结束系统程序及更改CPU频率</string>
+<string name="pref_hidemultiselect_text">隐藏额外功能</string>
+<string name="pref_hidemultiselectsum_text">不显示多选及停止更新</string>
+
+<!-- Connection -->
+<string name="pref_whoisdialog_title">Whois 查询</string>
+<string name="pref_whoisdialogsum_title">当按任一联机执行 Whois 查询</string>
+<string name="pref_ip6to4_title">IPv6 转换  IPv4</string>
+<string name="pref_ip6to4sum_title">强制转换  IPv6 为 IPv4 </string>
+<string name="pref_rdns_title">查询 DNS</string>
+<string name="pref_rdnssum_title">转换  ip 至  dns</string>
+
+<!-- Misc -->
+<string name="pref_autosetcpu_text">开机时设定 CPU</string>
+
+<!-- Message -->
+<string name="pref_choicelogtypesum_text">dmesg 或  logcat</string>
+<string name="pref_choicelogtype_text">选取 Log 种类</string>
+<string name="pref_dmesgfilter_text">设定过滤条件 (dmesg)</string>
+<string name="pref_logcatfilter_text">设定过滤条件 (logcat)</string>
+<string name="pref_logcatsource_text">数据源</string>
+<string name="pref_filterenable_text">启用过滤</string>
+<string name="pref_filterstr_text">Tag 过滤</string>
+<string name="pref_filterpid_text">PID 过滤</string>
+<string name="pref_filterlevel_text">Log 类型</string>
+
+<!-- Common -->
+<string name="button_ok">确定</string>
+<string name="button_cancel">取消</string>
+<string name="button_close">关闭</string>
+<string name="message_loading">载入中..</string>
+<string name="message_waiting">请稍等...</string>
+
+<!-- Export -->
+<string name="common_exportfile_title">文件名</string>
+<string name="common_exportexist_title">档案已经存在!</string>
+<string name="common_exportdone_title">汇出完成!</string>
+
+<!-- Menu -->
+<string name="menu_options">选项</string>
+<string name="menu_help">帮助</string>
+<string name="menu_forceexit">结束</string>
+<string name="menu_logexport">汇出 Log</string>
+
+<!-- Help -->
+<string name="help_info">版本: 2.0.5\n作者: eolwral@gmail.com</string>
+
+</resources>
+

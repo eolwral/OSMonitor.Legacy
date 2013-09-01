@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+<!-- Application   -->
+<string name="app_name">OS Monitor</string>
+<string name="app_title">OS Monitor 2.0.5</string>
+<!-- StatusBar -->
+<string name="bar_title">OS Monitor</string>
+<string name="bar_text">Executando em segundo plano</string>
+
+<!-- Tab  -->
+<string name="process_tab">Processos</string>
+<string name="network_tab">Internet</string>
+<string name="connection_tab">Conexões</string>
+<string name="misc_tab">Diversos</string>
+<string name="debug_tab">Mensagens</string>
+<!-- Process Tab Start  -->
+
+<!-- Header  -->
+<string name="process_count">Processos:</string>
+<string name="process_cpuusage">Uso de CPU:</string>
+
+<!-- Footer   -->
+<string name="process_memorytotal">Memoria Total:</string>
+<string name="process_memoryfree">Livre:</string>
+
+<!-- Table Header -->
+<string name="process_pid">PID</string>
+<string name="process_name">Nome</string>
+<string name="process_load">Carregado</string>
+<string name="process_mem">Mem</string>
+<string name="process_thread">THS</string>
+
+<!-- Action Menu  -->
+<string name="process_kill">Finalizar Processo</string>
+<string name="process_switch">Trocar Para o Processo</string>
+<string name="process_watchlog">Watch Log</string>
+<string name="process_nice">Nice Process</string>
+
+<!-- Expanded Menu -->
+<string name="process_killmsg">Finalizar $COUNT$ Processos..</string>
+<string name="process_multiselect">Multi-seleção</string>
+<string name="process_multikill">Finalizar</string>
+<string name="process_freeze">Congelar</string>
+
+<!-- Process Detail  -->
+<string name="process_detail_process">Processo</string>
+<string name="process_detail_memory">Memoria</string>
+<string name="process_detail_thread">Thread</string>
+<string name="process_detail_load">Carregado</string>
+<string name="process_detail_stime">STempo</string>
+<string name="process_detail_utime">UTempo</string>
+<string name="process_detail_nice">Nice</string>
+<string name="process_detail_user">Usuário</string>
+<string name="process_detail_status">Status</string>
+<string name="process_detail_time">horário de início</string>
+<!-- Process Status  -->
+<string name="process_status_zombie">Zumbi</string>
+<string name="process_status_sleep">Dormindo</string>
+<string name="process_status_running">Executando</string>
+<string name="process_status_waitio">Esperando E/S</string>
+<string name="process_status_stop">Parado</string>
+<string name="process_status_unknown">Não Identificado</string>
+<!-- Process Tab End  -->
+
+<!-- Network Tab Start -->
+<!-- Header -->
+<string name="network_interface">Interface</string>
+<string name="network_ip">IPv4</string>
+<string name="network_ip6">IPv6</string>
+
+<!-- Additional  -->
+<string name="network_mac">MAC</string>
+<string name="network_rx">Rx</string>
+<string name="network_tx">Tx</string>
+<string name="network_status">Status</string>
+
+<!-- Status -->
+<string name="network_status_up">up</string>
+<string name="network_status_down">down</string>
+<string name="network_status_broadcast">transmitindo</string>
+<string name="network_status_loopback">loopback</string>
+<string name="network_status_p2p">point-to-point</string>
+<string name="network_status_running">executando</string>
+<string name="network_status_multicast">multicast</string>
+
+<!-- Network Tab End  -->
+
+ <!-- Connection Tab Start -->
+
+<!-- Header  -->
+<string name="connection_protocol_text">Proto</string>
+<string name="connection_localremote_text">IP Local / Remoto</string>
+<string name="connection_status_text">Status</string>
+
+<!-- Connection Tab End -->
+
+<!-- Misc Tab Start -->
+
+<!-- Uptime -->
+<string name="uptimeday_text">dias</string>
+<string name="uptime_text">Tempo de Atividade</string>
+
+<!-- CPU  -->
+<string name="processorfreq_text">Raio de Frequência</string>
+<string name="processorscal_text">Raio de Escala</string>
+<string name="processorgov_text">Governor</string>
+<string name="processortmp_text">Temperatura</string>
+<string name="processorcur_text">Atual</string>
+<string name="processorcore_text">Core</string>
+
+<!-- Battery  -->
+<string name="battery_text">Bateria</string>
+<string name="battery_health_text">Saúde</string>
+<string name="battery_technology_text">Tecnologia</string>
+<string name="battery_capacity_text">Capacidade</string>
+<string name="battery_voltage_text">Voltagem</string>
+<string name="battery_temperature_text">Temperatura</string>
+<string name="battery_acpower_text">AC Power</string>
+<string name="battery_usbpower_text">USB Power</string>
+<string name="battery_status_text">Status</string>
+<string name="battery_online_text">OnLine</string>
+<string name="battery_offline_text">OffLine</string>
+<string name="battery_status_unknown_text">Não Identificado</string>
+<string name="battery_status_charging_text">Carregando</string>
+<string name="battery_status_discharging_text">Descarregando</string>
+<string name="battery_status_notcharging_text">Não Carregando</string>
+<string name="battery_status_full_text">Cheia</string>
+<string name="battery_health_dead_text">Sem Carga</string>
+<string name="battery_health_good_text">Boa</string>
+<string name="battery_health_overheat_text">Superaquecida</string>
+<string name="battery_health_overvoltage_text">Acima da Voltagem</string>
+<string name="battery_health_unknown_text">Não Identificado</string>
+<string name="battery_health_failure_text">Falha Não Identificada</string>
+
+<!-- Disk -->
+<string name="disk_total_text">Total</string>
+<string name="disk_used_text">Usada</string>
+<string name="disk_available_text">Disponível</string>
+
+<!-- Misc Tab End -->
+
+<!--Message Tab Start  -->
+<!--Header  -->
+<string name="message_count_text">Messagem:</string>
+<string name="message_freeze_text">Congelar</string>
+<!-- Message Tab End  -->
+
+<!-- Preferences -->
+<!-- Global   -->
+<string name="pref_updatetime_title">Intervalo de Atualização (Segundos)</string>
+<string name="pref_updatetimesum_title">Intervalo de Atualização para Todos </string>
+
+<!-- Status Bar  -->
+<string name="pref_showiconbar_title">Mostrar Ícone de Notificação</string>
+<string name="pref_iconbarcolor_title">Cor do Ícone de Notificação</string>
+<string name="pref_showiconbarsum_title">Mostrar um ícone de atalho na área de notificações</string>
+<string name="pref_cpuusage_text">Mostrar uso de CPU</string>
+<string name="pref_cpuusagesum_text">Mostrar um ícone animado do uso de CPU na área de notificações</string>
+<string name="pref_tempvalue_text">Mostrar em Celsius</string>
+<string name="pref_tempvaluesum_text">Trocar Celsius/Fahrenheit unidades</string>
+<string name="pref_autostart_text">Início Automático</string>
+<string name="pref_autostartsum_text">Início automático de aplicativos no Boot</string>
+
+<!-- Extra  -->
+<string name="pref_hideappbar_text">Esconder o título do aplicativo</string>
+<string name="pref_hideappbarsum_text">Mais espaço na tela para mostrar</string>
+<string name="pref_rooted_text">Habilitar modo ROOT</string>
+
+<!-- Process -->
+<string name="pref_showsystem_text">Esconder processos do sistema</string>
+<string name="pref_showsystemsum_text">esconder processoso contendo "/system/" ou uid igual a 0 (root)</string>
+<string name="pref_algorithm_text">Algorítimo de classificação</string>
+<string name="pref_sortbytitle_text">Mostrat por</string>
+<string name="pref_sortbytitlesum_text">PID, Carregado, Memória, Threads, Nome</string>
+<string name="pref_sortway_text">Ordem</string>
+<string name="pref_sortwaysum_text">por favor selecione se você quer mostrar em ordem decrescente, caso contrario crescente</string>
+<string name="pref_longclicktitle_text">Comportamente de um Longo Click</string>
+<string name="pref_shortclicktitle_text">Comportamento de um Click Curto</string>
+<string name="pref_clicktitlesum_text">Mostrar Detalhes, Menu de Ações, Right Detail/Left Action</string>
+<string name="pref_rootedsum_text">suporta finalização de processos do sistema e definir a frequência da CPU</string>
+<string name="pref_hidemultiselect_text">Esconder a Área Extra</string>
+<string name="pref_hidemultiselectsum_text">esconder as opções de multi-seleção e de congelar</string>
+
+<!-- Connection -->
+<string name="pref_whoisdialog_title">Pesquisa Whois</string>
+<string name="pref_whoisdialogsum_title">adquirir informações whois quando conseguir uma conexão</string>
+<string name="pref_ip6to4_title">IPv6 to IPv4</string>
+<string name="pref_ip6to4sum_title">forçar conversão IPv6 to IPv4</string>
+<string name="pref_rdns_title">Procurar DNS</string>
+<string name="pref_rdnssum_title">converter ip to dns</string>
+
+<!-- Misc -->
+<string name="pref_autosetcpu_text">Definir a CPU no Boot</string>
+<string name="pref_batteryjni_text">Obter status via arquivo</string>
+<string name="pref_batteryjnisum_text">Obter status do /sys/class/suprimento_de_energia/bateria/*</string>
+
+<!-- Message -->
+<string name="pref_choicelogtypesum_text">dmesg or logcat</string>
+<string name="pref_choicelogtype_text">Ver Log</string>
+<string name="pref_dmesgfilter_text">Filtro (dmesg)</string>
+<string name="pref_logcatfilter_text">Filtro (logcat)</string>
+<string name="pref_logcatsource_text">Ring Buffer</string>
+<string name="pref_filterenable_text">Habilitar filtragem</string>
+<string name="pref_filterstr_text">Filtro de TAG</string>
+<string name="pref_filterpid_text">Filtro de PID</string>
+<string name="pref_filterlevel_text">Filtro de Log</string>
+
+<!-- Common -->
+<string name="button_ok">OK</string>
+<string name="button_cancel">Cancelar</string>
+<string name="button_close">Fechar</string>
+
+<string name="message_loading">Carregando..</string>
+<string name="message_waiting">Por Favor Espere...</string>
+<!-- Export -->
+<string name="common_exportfile_title">Nome de entrada do arquivo</string>
+<string name="common_exportexist_title">Arquivo já existe!</string>
+<string name="common_exportdone_title">Export OK!</string>
+
+<!-- Menu -->
+<string name="menu_options">Opções</string>
+<string name="menu_help">Ajuda</string>
+<string name="menu_forceexit">Sair</string>
+<string name="menu_logexport">Exportar Log</string>
+
+<!-- Help -->
+<string name="help_info">Version: 2.0.5\n\nAuthor: eolwral@gmail.com, Translator: Alex Fiorani</string>
+
+</resources>

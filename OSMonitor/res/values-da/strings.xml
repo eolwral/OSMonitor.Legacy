@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Application -->
+  <string name="app_name">System Overvågning</string>
+  <string name="app_title">System Overvåger 2.0.1</string>
+  <!-- StatusBar -->
+  <string name="bar_title">System Overvåger</string>
+  <string name="bar_text">Kører i baggrunden</string>
+  <!-- Tab -->
+  <string name="process_tab">Proces</string>
+  <string name="network_tab">Netværk</string>
+  <string name="connection_tab">Forbindelse</string>
+  <string name="misc_tab">Diverse</string>
+  <string name="debug_tab">Besked</string>
+  <!-- Process Tab Start -->
+  <!-- Header -->
+  <string name="process_count">Proces:</string>
+  <string name="process_cpuusage">CPU Forbrug:</string>
+  <!-- Footer -->
+  <string name="process_memorytotal">Total Hukommelse:</string>
+  <string name="process_memoryfree">Fri:</string>
+  <!-- Table Header -->
+  <string name="process_pid">PID</string>
+  <string name="process_name">Proces Navn</string>
+  <string name="process_load">Pres</string>
+  <string name="process_mem">Huk</string>
+  <string name="process_thread">THS</string>
+  <!-- Action Menu -->
+  <string name="process_kill">Dræb Proces</string>
+  <string name="process_switch">Skrift til Processen</string>
+  <string name="process_watchlog">Tjek Log</string>
+  <string name="process_nice">Fin Proces</string>
+  <!-- Expanded Menu  -->
+  <string name="process_killmsg">Dræb $COUNT$ Processer..</string>
+  <string name="process_multiselect">Multi Valg</string>
+  <string name="process_multikill">Dræb</string>
+  <string name="process_freeze">Frys</string>
+  <!-- Process Detail -->
+  <string name="process_detail_process">Proces</string>
+  <string name="process_detail_memory">Hukommelse</string>
+  <string name="process_detail_thread">Tråd</string>
+  <string name="process_detail_load">Pres</string>
+  <string name="process_detail_stime">STid</string>
+  <string name="process_detail_utime">UTid</string>
+  <string name="process_detail_nice">Fin</string>
+  <string name="process_detail_user">Bruger</string>
+  <string name="process_detail_status">Status</string>
+  <!-- Process Status -->
+  <string name="process_status_zombie">Zombie</string>
+  <string name="process_status_sleep">Sov</string>
+  <string name="process_status_running">Løbende</string>
+  <string name="process_status_waitio">Vent IO</string>
+  <string name="process_status_stop">Stop</string>
+  <string name="process_status_unknown">Ukendt</string>
+  <!-- Process Tab End -->
+  <!-- Network Tab Start -->
+  <!-- Header -->
+  <string name="network_interface">Grænseflade</string>
+  <string name="network_ip">IPv4</string>
+  <string name="network_ip6">IPv6</string>
+  <!-- Additional -->
+  <string name="network_mac">MAC</string>
+  <string name="network_rx">Rx</string>
+  <string name="network_tx">Tx</string>
+  <string name="network_status">Status</string>
+  <!-- Status -->
+  <string name="network_status_up">op</string>
+  <string name="network_status_down">ned</string>
+  <string name="network_status_broadcast">udsendelse</string>
+  <string name="network_status_loopback">loopback</string>
+  <string name="network_status_p2p">point-to-point</string>
+  <string name="network_status_running">kørende</string>
+  <string name="network_status_multicast">multicast</string>
+  <!-- Network Tab End -->
+  <!-- Connection Tab Start -->
+  <!-- Header -->
+  <string name="connection_protocol_text">Proto</string>
+  <string name="connection_localremote_text">Lokal / Fremmed IP</string>
+  <string name="connection_status_text">Status</string>
+  <!-- Connection Tab End -->
+  <!-- Misc Tab Start -->
+  <!-- Uptime -->
+  <string name="uptimeday_text">dage</string>
+  <string name="uptime_text">Oppetid</string>
+  <!-- CPU -->
+  <string name="processorfreq_text">Frekvens Omfang</string>
+  <string name="processorscal_text">Skalerings Omfang</string>
+  <string name="processorgov_text">Overvåger</string>
+  <string name="processortmp_text">Temperatur</string>
+  <string name="processorcur_text">Nuværende</string>
+  <string name="processorcore_text">Kerne</string>
+  <!-- Battery -->
+  <string name="battery_text">Batteri</string>
+  <string name="battery_health_text">Helbred</string>
+  <string name="battery_technology_text">Teknologi</string>
+  <string name="battery_capacity_text">Kapacitet</string>
+  <string name="battery_voltage_text">Spænding</string>
+  <string name="battery_temperature_text">Temperatur</string>
+  <string name="battery_acpower_text">AC Styrke</string>
+  <string name="battery_usbpower_text">USB Styrke</string>
+  <string name="battery_status_text">Status</string>
+  <string name="battery_online_text">OnLine</string>
+  <string name="battery_offline_text">OffLine</string>
+  <string name="battery_status_unknown_text">Ukendt</string>
+  <string name="battery_status_charging_text">Oplader</string>
+  <string name="battery_status_discharging_text">Aflader</string>
+  <string name="battery_status_notcharging_text">Lader Ikke</string>
+  <string name="battery_status_full_text">Fuld</string>
+  <string name="battery_health_dead_text">Død</string>
+  <string name="battery_health_good_text">God</string>
+  <string name="battery_health_overheat_text">Overophedning</string>
+  <string name="battery_health_overvoltage_text">Overspænding</string>
+  <string name="battery_health_unknown_text">Ukendt</string>
+  <string name="battery_health_failure_text">Uspecificeret Fejl</string>
+  <!-- Disk -->
+  <string name="disk_total_text">Total</string>
+  <string name="disk_used_text">Brugt</string>
+  <string name="disk_available_text">Tilgængelig</string>
+  <!-- Misc Tab End -->
+  <!-- Message Tab Start -->
+  <!-- Header -->
+  <string name="message_count_text">Besked:</string>
+  <string name="message_freeze_text">Frys</string>
+  <!-- Message Tab End -->
+  <!-- Preferences -->
+  <!-- Global -->
+  <string name="pref_updatetime_title">Opdaterings Interval (sekunder)</string>
+  <string name="pref_updatetimesum_title">genfrisk interval for alle</string>
+  <!-- Status Bar  -->
+  <string name="pref_showiconbar_title">Vis Notifikations Ikon</string>
+  <string name="pref_iconbarcolor_title">Notifikation Ikon Farve</string>
+  <string name="pref_showiconbarsum_title">vis genvej i notifikations området</string>
+  <string name="pref_cpuusage_text">Vis CPU Forbrug</string>
+  <string name="pref_cpuusagesum_text">vis animeret CPU måler i notifikations området</string>
+  <string name="pref_tempvalue_text">Vis Celsius</string>
+  <string name="pref_tempvaluesum_text">skift mellem Celsius/Fahrenheit enheder</string>
+  <string name="pref_autostart_text">Start Automatisk</string>
+  <string name="pref_autostartsum_text">start automatisk applikationerne ved boot</string>
+  <!-- Extra  -->
+  <string name="pref_hideappbar_text">Skjul Applikations Titel</string>
+  <string name="pref_hideappbarsum_text">mere skærm plads på display</string>
+  <string name="pref_rooted_text">Tænd for ROOT TILSTAND</string>
+  <!-- Process -->
+  <string name="pref_showsystem_text">Skjul System Proces</string>
+  <string name="pref_showsystemsum_text">skjul enhver proces der indeholder "/system/" eller UID lig med 0 (root)</string>
+  <string name="pref_algorithm_text">Sorterings algoritme</string>
+  <string name="pref_sortbytitle_text">Sorter efter</string>
+  <string name="pref_sortbytitlesum_text">PID, Pres, Hukommelse, Tråde, Navn</string>
+  <string name="pref_sortway_text">Sortering</string>
+  <string name="pref_sortwaysum_text">vælg venligst om der skal sorteres faldende eller stigende</string>
+  <string name="pref_longclicktitle_text">Adfærd for Lang Klik</string>
+  <string name="pref_shortclicktitle_text">Adfærd for Kort Klik</string>
+  <string name="pref_clicktitlesum_text">Hvis Detalje, Aktions Menu, Højre Detalje/Venstre Aktion</string>
+  <string name="pref_rootedsum_text">hjælp til drab af proces og CPU frekvens</string>
+  <string name="pref_hidemultiselect_text">Gem Ekstra Område</string>
+  <string name="pref_hidemultiselectsum_text">multivalg og frys mulighed</string>
+  <!-- Connection -->
+  <string name="pref_whoisdialog_title">Whois Søgning</string>
+  <string name="pref_whoisdialogsum_title">søg whois information når program rammer forbindelse</string>
+  <string name="pref_ip6to4_title">IPv6 til IPv4</string>
+  <string name="pref_ip6to4sum_title">tving konvertering af IPv6 til IPv4</string>
+  <string name="pref_rdns_title">Søg DNS</string>
+  <string name="pref_rdnssum_title">konverter ip til dns</string>
+  <!-- Misc -->
+  <string name="pref_autosetcpu_text">Sæt CPU ved Opstart</string>
+  <string name="pref_batteryjni_text">Hent Status via Fil</string>
+  <string name="pref_batteryjnisum_text">indhent status fra /sys/class/power_supply/battery*</string>
+  <!-- Message -->
+  <string name="pref_choicelogtypesum_text">dmesg eller logcat</string>
+  <string name="pref_choicelogtype_text">Vis Log</string>
+  <string name="pref_dmesgfilter_text">Filtrer (dmesg)</string>
+  <string name="pref_logcatfilter_text">Filtrer (logcat)</string>
+  <string name="pref_logcatsource_text">Ring Buffer</string>
+  <string name="pref_filterenable_text">Start Filtrering</string>
+  <string name="pref_filterstr_text">Tag Filtrering</string>
+  <string name="pref_filterpid_text">PID Filtrering</string>
+  <string name="pref_filterlevel_text">Filtrer Log</string>
+  <!-- Common -->
+  <string name="button_ok">OK</string>
+  <string name="button_cancel">Annuler</string>
+  <string name="button_close">Luk</string>
+  <string name="message_loading">Lader..</string>
+  <string name="message_waiting">Vent venligst..</string>
+  <!-- Export -->
+  <string name="common_exportfile_title">Indsæt Filnavn</string>
+  <string name="common_exportexist_title">Filen eksisterer allerede!</string>
+  <string name="common_exportdone_title">Eksportering OK!</string>
+  <!-- Menu -->
+  <string name="menu_options">Valgmuligheder</string>
+  <string name="menu_help">Hjælp</string>
+  <string name="menu_forceexit">Luk</string>
+  <string name="menu_logexport">Eksporter Log</string>
+  <!-- Help -->
+  <string name="help_info">Version: 2.0.1\n\nAuthor: eolwral@gmail.com</string>
+</resources>

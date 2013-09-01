@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_sort">
+        <item>PID</item>
+        <item>负载</item>
+        <item>内存</item>
+        <item>线程数</item>
+        <item>名称</item>
+    </string-array>
+
+	<string-array name="entryvalues_list_sort">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+
+    <string-array name="behavior_list_sort">
+        <item>详细资料</item>
+        <item>动作选单</item>
+        <item>左边动作/右边详细</item>
+    </string-array>
+
+	<string-array name="behaviorvalues_list_sort">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+	
+	<string-array name="logtype_list_sort">
+        <item>dmesg</item>
+        <item>Logcat</item>
+    </string-array>
+
+	<string-array name="dmesg_level_list">
+		<item>None</item>
+		<item>Emergency</item>
+		<item>Alert</item>
+		<item>Critical</item>
+		<item>Error</item>
+		<item>Warning</item>
+		<item>Notice</item>
+		<item>Information</item>
+		<item>Debug</item>
+    </string-array>
+    
+    <string-array name="dmesg_level_value">
+		<item>8</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+    </string-array>
+
+	<string-array name="logcat_level_list">
+		<item>None</item>
+		<item>Verbose</item>
+		<item>Debug</item>
+		<item>Information</item>
+		<item>Warning</item>
+		<item>Error</item>
+		<item>Fatal</item>
+    </string-array>
+    
+    <string-array name="logcat_level_value">
+		<item>0</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+    </string-array>
+
+	<string-array name="logcat_source_list">
+		<item>Main</item>
+		<item>Radio</item>
+<!-- 		<item>Events</item> -->
+    </string-array>
+    
+    <string-array name="logcat_source_value">
+		<item>0</item>
+		<item>1</item>
+<!-- 		<item>2</item>  -->
+    </string-array>
+ 
+    <string-array name="statusbar_color_list">
+        <item>绿</item>
+        <item>蓝</item>
+    </string-array>
+
+    <string-array name="statusbar_color_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+ 
+</resources>
+

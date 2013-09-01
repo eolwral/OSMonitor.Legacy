@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eolwral.osmonitor.leagcy.misc;
+package com.eolwral.osmonitor.legacy.misc;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -53,8 +53,8 @@ import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.eolwral.osmonitor.leagcy.*;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.*;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 public class MiscBox extends Activity implements OnGestureListener, OnTouchListener
 {

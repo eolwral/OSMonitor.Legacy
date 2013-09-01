@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eolwral.osmonitor.leagcy.networks;
+package com.eolwral.osmonitor.legacy.networks;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -74,8 +74,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.eolwral.osmonitor.leagcy.*;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.*;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 
 public class NetworkList extends MapActivity implements OnGestureListener, OnTouchListener  
@@ -195,7 +195,7 @@ public class NetworkList extends MapActivity implements OnGestureListener, OnTou
 	
 	Handler handler = new Handler();
 	
-    public class EventHandler extends Handler 
+    public class  EventHandler extends Handler 
     {
         public void handleMessage(Message msg) 
         {

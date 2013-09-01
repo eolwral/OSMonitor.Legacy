@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.networks;
+package com.eolwral.osmonitor.legacy.networks;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

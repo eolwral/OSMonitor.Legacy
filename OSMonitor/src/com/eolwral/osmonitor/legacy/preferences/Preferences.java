@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.eolwral.osmonitor.leagcy.preferences;
+package com.eolwral.osmonitor.legacy.preferences;
 
-import com.eolwral.osmonitor.leagcy.CommonUtil;
-import com.eolwral.osmonitor.leagcy.JNIInterface;
-import com.eolwral.osmonitor.leagcy.R;
+import com.eolwral.osmonitor.legacy.CommonUtil;
+import com.eolwral.osmonitor.legacy.JNIInterface;
+import com.eolwral.osmonitor.legacy.R;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

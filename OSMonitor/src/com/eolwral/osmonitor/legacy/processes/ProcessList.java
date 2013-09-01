@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.processes;
+package com.eolwral.osmonitor.legacy.processes;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -45,9 +45,9 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.view.GestureDetector;
 import android.view.GestureDetector.OnGestureListener;
 
-import com.eolwral.osmonitor.leagcy.*;
-import com.eolwral.osmonitor.leagcy.messages.DebugBox;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.*;
+import com.eolwral.osmonitor.legacy.messages.DebugBox;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 public class ProcessList extends ListActivity implements OnGestureListener, OnTouchListener
 {

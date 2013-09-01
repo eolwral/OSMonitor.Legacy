@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.networks;
+package com.eolwral.osmonitor.legacy.networks;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.processes;
+package com.eolwral.osmonitor.legacy.processes;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Debug;
 
-import com.eolwral.osmonitor.leagcy.*;
+import com.eolwral.osmonitor.legacy.*;
 
 
 public class ProcessInfoQuery extends Thread

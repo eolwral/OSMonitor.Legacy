@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.networks;
+package com.eolwral.osmonitor.legacy.networks;
 
 public class WhoisSAXDataSet 
 {

@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy.preferences;
+package com.eolwral.osmonitor.legacy.preferences;
 
 import java.io.BufferedInputStream;
 import java.io.File;

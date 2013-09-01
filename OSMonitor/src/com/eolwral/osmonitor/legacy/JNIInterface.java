@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy;
+package com.eolwral.osmonitor.legacy;
 
 public class JNIInterface
 { 

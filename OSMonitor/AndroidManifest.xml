@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.eolwral.osmonitor.leagcy"
+      package="com.eolwral.osmonitor.legacy"
       android:installLocation="auto" android:versionName="2.0.5" android:versionCode="28">
     <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="8"/>
     <application android:label="@string/app_name" android:icon="@drawable/appicon">
-    	<activity android:name=".OSMonitor"
+    	<activity android:name="com.eolwral.osmonitor.legacy.OSMonitor"
                   android:label="@string/app_name" android:configChanges="keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -12,7 +12,7 @@
             </intent-filter>
         </activity>
         
-        <receiver android:enabled="true" android:name=".BootUpReceiver"
+        <receiver android:enabled="true" android:name="com.eolwral.osmonitor.legacy.BootUpReceiver"
 				  android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
 
 			<intent-filter>
@@ -29,16 +29,16 @@
         </service>
 
         <activity android:configChanges="keyboardHidden" 
-        		  android:name="com.eolwral.osmonitor.leagcy.processes.ProcessList" />
+        		  android:name="com.eolwral.osmonitor.legacy.processes.ProcessList" />
         <activity android:configChanges="keyboardHidden" 
-                  android:name="com.eolwral.osmonitor.leagcy.interfaces.InterfaceList" />
+                  android:name="com.eolwral.osmonitor.legacy.interfaces.InterfaceList" />
         <activity android:configChanges="keyboardHidden" 
-                  android:name="com.eolwral.osmonitor.leagcy.networks.NetworkList" />
+                  android:name="com.eolwral.osmonitor.legacy.networks.NetworkList" />
         <activity android:configChanges="keyboardHidden" 
-                  android:name="com.eolwral.osmonitor.leagcy.messages.DebugBox" />
+                  android:name="com.eolwral.osmonitor.legacy.messages.DebugBox" />
         <activity android:configChanges="keyboardHidden" 
-                  android:name="com.eolwral.osmonitor.leagcy.misc.MiscBox" />
-		<activity android:name="com.eolwral.osmonitor.leagcy.preferences.Preferences" />
+                  android:name="com.eolwral.osmonitor.legacy.misc.MiscBox" />
+		<activity android:name="com.eolwral.osmonitor.legacy.preferences.Preferences" />
 		<uses-library android:name="com.google.android.maps"/>
 	</application>
     <uses-permission android:name="android.permission.INTERNET" />

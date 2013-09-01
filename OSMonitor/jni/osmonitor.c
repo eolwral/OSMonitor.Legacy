@@ -1009,7 +1009,7 @@ static jstring Logcat_GetMsg( JNIEnv* env, jobject thiz, jint position)
 
 /* JNI Load and UnLoad */
 
-static const char *classPathName = "com/eolwral/osmonitor/leagcy/JNIInterface";
+static const char *classPathName = "com/eolwral/osmonitor/legacy/JNIInterface";
 
 static JNINativeMethod gMethods[] = {
 		/* name, signature, funcPtr */

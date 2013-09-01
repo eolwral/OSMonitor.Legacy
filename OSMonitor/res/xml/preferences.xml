@@ -137,17 +137,17 @@
 							android:title="@string/pref_autosetcpu_text" >
 		</CheckBoxPreference>
 
-		<com.eolwral.osmonitor.leagcy.preferences.SetCPURangePreference
+		<com.eolwral.osmonitor.legacy.preferences.SetCPURangePreference
 							  android:key="SetCPURange_Preference" 
 							  android:dependency="AutoSetCPU_Preference"
 							  android:title="@string/processorfreq_text" >
-		</com.eolwral.osmonitor.leagcy.preferences.SetCPURangePreference>
+		</com.eolwral.osmonitor.legacy.preferences.SetCPURangePreference>
 
-		<com.eolwral.osmonitor.leagcy.preferences.SetCPUGovPreference
+		<com.eolwral.osmonitor.legacy.preferences.SetCPUGovPreference
 							  android:dependency="AutoSetCPU_Preference" 
 							  android:title="@string/processorgov_text" 
 							  android:key="SetCPUGov_Preference">
-		</com.eolwral.osmonitor.leagcy.preferences.SetCPUGovPreference>
+		</com.eolwral.osmonitor.legacy.preferences.SetCPUGovPreference>
 	</PreferenceCategory>
 	
 	<PreferenceCategory android:title="@string/debug_tab">

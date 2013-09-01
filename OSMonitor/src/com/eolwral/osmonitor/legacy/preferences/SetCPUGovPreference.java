@@ -1,10 +1,10 @@
-package com.eolwral.osmonitor.leagcy.preferences;
+package com.eolwral.osmonitor.legacy.preferences;
 
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
-import com.eolwral.osmonitor.leagcy.JNIInterface;
+import com.eolwral.osmonitor.legacy.JNIInterface;
 
 import android.content.Context;
 import android.preference.DialogPreference;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.eolwral.osmonitor.leagcy;
+package com.eolwral.osmonitor.legacy;
 
 import android.app.TabActivity;
 import android.content.Intent;
@@ -23,12 +23,12 @@ import android.preference.PreferenceManager;
 import android.view.Window;
 import android.widget.TabHost;
 
-import com.eolwral.osmonitor.leagcy.interfaces.InterfaceList;
-import com.eolwral.osmonitor.leagcy.messages.DebugBox;
-import com.eolwral.osmonitor.leagcy.misc.MiscBox;
-import com.eolwral.osmonitor.leagcy.networks.NetworkList;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
-import com.eolwral.osmonitor.leagcy.processes.*;
+import com.eolwral.osmonitor.legacy.interfaces.InterfaceList;
+import com.eolwral.osmonitor.legacy.messages.DebugBox;
+import com.eolwral.osmonitor.legacy.misc.MiscBox;
+import com.eolwral.osmonitor.legacy.networks.NetworkList;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.processes.*;
 
 public class OSMonitor extends TabActivity
 {

@@ -1,4 +1,4 @@
-package com.eolwral.osmonitor.leagcy;
+package com.eolwral.osmonitor.legacy;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;

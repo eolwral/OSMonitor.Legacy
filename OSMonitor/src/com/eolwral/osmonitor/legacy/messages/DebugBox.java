@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eolwral.osmonitor.leagcy.messages;
+package com.eolwral.osmonitor.legacy.messages;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -56,8 +56,8 @@ import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.eolwral.osmonitor.leagcy.*;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.*;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 public class DebugBox extends Activity implements OnGestureListener, OnTouchListener
 {

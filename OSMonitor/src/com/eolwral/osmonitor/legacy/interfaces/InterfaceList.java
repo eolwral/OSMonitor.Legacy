@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eolwral.osmonitor.leagcy.interfaces;
+package com.eolwral.osmonitor.legacy.interfaces;
 
 import java.text.DecimalFormat;
 
@@ -44,8 +44,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.eolwral.osmonitor.leagcy.*;
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.*;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 public class InterfaceList extends Activity implements OnGestureListener, OnTouchListener
 {

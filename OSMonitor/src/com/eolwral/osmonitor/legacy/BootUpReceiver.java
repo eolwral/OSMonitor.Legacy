@@ -1,6 +1,6 @@
-package com.eolwral.osmonitor.leagcy;
+package com.eolwral.osmonitor.legacy;
 
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

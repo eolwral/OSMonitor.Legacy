@@ -1,8 +1,8 @@
-package com.eolwral.osmonitor.leagcy;
+package com.eolwral.osmonitor.legacy;
 
 import java.text.DecimalFormat;
 
-import com.eolwral.osmonitor.leagcy.preferences.Preferences;
+import com.eolwral.osmonitor.legacy.preferences.Preferences;
 
 import android.app.Notification;
 import android.app.NotificationManager;
